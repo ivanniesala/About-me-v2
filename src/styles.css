@@ -47,7 +47,7 @@ h1 {
 
 .contact-header {
   padding: 150px 30px 50px;
-  text-align: left;
+  text-align: center;
 }
 .contact-box {
   background-color: var(--primary-block-color);
@@ -80,4 +80,23 @@ h1 {
 }
 .fa-brands:hover {
   color: var(--pop-color);
+}
+
+.self-img {
+  max-width: 100%;
+  margin: 40px 0px;
+}
+.about-box {
+  padding: 45px 30px 45px;
+}
+.about-header {
+  font-size: 65px;
+  font-family: var(--heading-font-family);
+  line-height: 85px;
+}
+.about-details{ 
+  font-size: 25px;
+}
+.container{
+  justify-content: space-around;
 }
