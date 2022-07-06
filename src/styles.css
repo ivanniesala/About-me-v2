@@ -14,19 +14,29 @@ body {
 
 @media (max-width: 430px) {
   body {
-    padding: 25px;
+    padding: 10px;
     text-align: center;
   }
-  h3{
-    font-size: 35px; 
-    }
-
-  .div{
-    display: block;
-    margin: 0 auto;
+  h3 {
+    font-size: 35px;
   }
+
+  .project-details p{
+  padding: 1px 0px 0px;
+  }
+  .project-img {
+  max-width: 100%;
  
+  }
+  .weather-img {
+  padding: 2px 15px;
+  background: #f5f2fe;
+  margin: 2px 2px;
+
+  }
 }
+
+
 .header {
   background-color: var(--primary-block-color);
   text-align: center;
@@ -45,7 +55,7 @@ body {
 
 h1 {
   font-family: "Abril Fatface", cursive;
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .btn-branding {
@@ -127,3 +137,39 @@ h1 {
   margin: 50px auto;
   width: 900px;
 }
+p{
+  text-align: center;
+  padding: 35px;
+  font-size: 30px;
+}
+.project-details {
+  padding: 45px 30px 45px;
+}
+.project-details p{
+  font-size: 25px;
+}
+.project-img {
+  max-width: 100%;
+  margin: 40px 2px;
+}
+.weather-img {
+  padding: 25px 15px;
+  background: #f5f2fe;
+  margin: 40px 2px;
+}
+
+.mb-3 {
+  font-family: var(--heading-font-family);
+  
+}
+
+.btn-project-branding {
+  border: 2px solid #b69495;
+  color: var(--pop-color);
+}
+
+.btn-project-branding:hover {
+background: radial-gradient(circle at 10% 20%, rgb(255, 246, 236) 39.5%, rgba(100, 46, 122, 0.23) 100.2%);
+  color: var(--pop-color);
+}
+
