@@ -1,5 +1,5 @@
 
-/*function welcome() {
+function welcome() {
   let askName = prompt("What is your name?");
   askName = askName.trim();
   let heading = document.querySelector("#welcome");

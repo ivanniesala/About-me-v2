@@ -21,21 +21,18 @@ body {
     font-size: 35px;
   }
 
-  .project-details p{
-  padding: 1px 0px 0px;
+  .project-details p {
+    padding: 1px 0px 0px;
   }
   .project-img {
-  max-width: 100%;
- 
+    max-width: 100%;
   }
   .weather-img {
-  padding: 2px 15px;
-  background: #f5f2fe;
-  margin: 2px 2px;
-
+    padding: 2px 15px;
+    background: #f5f2fe;
+    margin: 2px 2px;
   }
 }
-
 
 .header {
   background-color: var(--primary-block-color);
@@ -86,6 +83,7 @@ h1 {
 .contact-btn {
   display: flex;
   justify-content: end;
+
 }
 
 #contact-box-header {
@@ -137,15 +135,11 @@ h1 {
   margin: 50px auto;
   width: 900px;
 }
-p{
-  text-align: center;
-  padding: 35px;
-  font-size: 30px;
-}
+
 .project-details {
   padding: 45px 30px 45px;
 }
-.project-details p{
+.project-details p {
   font-size: 25px;
 }
 .project-img {
@@ -160,7 +154,6 @@ p{
 
 .mb-3 {
   font-family: var(--heading-font-family);
-  
 }
 
 .btn-project-branding {
@@ -169,7 +162,16 @@ p{
 }
 
 .btn-project-branding:hover {
-background: radial-gradient(circle at 10% 20%, rgb(255, 246, 236) 39.5%, rgba(100, 46, 122, 0.23) 100.2%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
   color: var(--pop-color);
 }
 
+.intro{
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0px 0px;
+}
