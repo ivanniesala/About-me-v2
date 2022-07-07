@@ -32,7 +32,11 @@ body {
     background: #f5f2fe;
     margin: 2px 2px;
   }
+
 }
+
+/*homepage
+*/
 
 .header {
   background-color: var(--primary-block-color);
@@ -68,6 +72,82 @@ h1 {
   color: var(--pop-color);
   background-color: #ede8dc;
 }
+
+
+.intro{
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0px 0px;
+}
+
+.project-details {
+  padding: 45px 30px 45px;
+}
+.project-details p {
+  font-size: 25px;
+}
+.project-img {
+  max-width: 100%;
+  margin: 40px 2px;
+}
+.weather-img {
+  padding: 25px 15px;
+  background: #f5f2fe;
+  margin: 40px 2px;
+}
+
+.mb-3 {
+  font-family: var(--heading-font-family);
+}
+
+.btn-project-branding {
+  border: 2px solid #b69495;
+  color: var(--pop-color);
+}
+
+.btn-project-branding:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
+  );
+  color: var(--pop-color);
+}
+
+
+/*about 
+*/
+
+.self-img {
+  max-width: 100%;
+  margin: 40px 0px;
+}
+.about-box {
+  padding: 45px 30px 45px;
+}
+.about-header {
+  font-size: 65px;
+  font-family: var(--heading-font-family);
+  line-height: 85px;
+}
+.about-details {
+  font-size: 25px;
+}
+.container {
+  justify-content: space-around;
+}
+
+.about-contact-box {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--primary-block-color);
+  border: 1px solid var(--secondary-block-color);
+  padding: 30px;
+  margin: 50px auto;
+}
+
+/*contact
+*/
 
 .contact-header {
   padding: 150px 30px 50px;
@@ -107,71 +187,6 @@ h1 {
   color: var(--pop-color);
 }
 
-.self-img {
-  max-width: 100%;
-  margin: 40px 0px;
-}
-.about-box {
-  padding: 45px 30px 45px;
-}
-.about-header {
-  font-size: 65px;
-  font-family: var(--heading-font-family);
-  line-height: 85px;
-}
-.about-details {
-  font-size: 25px;
-}
-.container {
-  justify-content: space-around;
-}
 
-.about-contact-box {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--primary-block-color);
-  border: 1px solid var(--secondary-block-color);
-  padding: 30px;
-  margin: 50px auto;
-  width: 900px;
-}
 
-.project-details {
-  padding: 45px 30px 45px;
-}
-.project-details p {
-  font-size: 25px;
-}
-.project-img {
-  max-width: 100%;
-  margin: 40px 2px;
-}
-.weather-img {
-  padding: 25px 15px;
-  background: #f5f2fe;
-  margin: 40px 2px;
-}
 
-.mb-3 {
-  font-family: var(--heading-font-family);
-}
-
-.btn-project-branding {
-  border: 2px solid #b69495;
-  color: var(--pop-color);
-}
-
-.btn-project-branding:hover {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(255, 246, 236) 39.5%,
-    rgba(100, 46, 122, 0.23) 100.2%
-  );
-  color: var(--pop-color);
-}
-
-.intro{
-  text-align: center;
-  font-size: 25px;
-  padding: 20px 0px 0px;
-}
