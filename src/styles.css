@@ -39,6 +39,9 @@ body {
 
 /*homepage
 */
+.logo{
+  max-width: 150px;
+}
 
 .header {
   background-color: var(--primary-block-color);
