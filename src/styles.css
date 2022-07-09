@@ -35,6 +35,15 @@ body {
   .content-header {
     padding: 5px;
   }
+  .contact-box{
+    display: flex;
+    justify-content: center;
+  }
+  .contact-box p,h3{
+    text-align: center;
+  
+}
+  
 }
 
 /*homepage
@@ -156,16 +165,29 @@ h1 {
   padding: 150px 30px 50px;
   text-align: center;
 }
+
+
 .contact-box {
   background-color: var(--primary-block-color);
   border: 1px solid var(--secondary-block-color);
-  padding: 30px;
-  margin: 50px auto;
+  padding: 30px 120px;
+  margin: 30px auto;
+  max-width: 850px;
 }
 
+h3{
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+}
+.contact-box p{
+  font-size: 25px;
+  
+}
 .contact-btn {
   display: flex;
-  justify-content: end;
+
+  justify-content:center;
+  width: 175px;
 }
 
 #contact-box-header {
