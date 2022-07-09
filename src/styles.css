@@ -32,7 +32,9 @@ body {
     background: #f5f2fe;
     margin: 2px 2px;
   }
-
+  .content-header {
+    padding: 5px;
+  }
 }
 
 /*homepage
@@ -73,8 +75,7 @@ h1 {
   background-color: #ede8dc;
 }
 
-
-.intro{
+.intro {
   text-align: center;
   font-size: 25px;
   padding: 20px 0px 0px;
@@ -113,7 +114,6 @@ h1 {
   );
   color: var(--pop-color);
 }
-
 
 /*about 
 */
@@ -163,7 +163,6 @@ h1 {
 .contact-btn {
   display: flex;
   justify-content: end;
-
 }
 
 #contact-box-header {
@@ -187,6 +186,21 @@ h1 {
   color: var(--pop-color);
 }
 
+/*my work
+*/
 
+.content {
+  padding: 70px;
+}
+.content h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 25px;
+}
 
-
+.content img {
+  height: auto;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
