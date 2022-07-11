@@ -21,11 +21,8 @@ body {
     font-size: 35px;
   }
 
-  .project-details p {
-    padding: 1px 0px 0px;
-  }
   .project-img {
-    max-width: 100%;
+    max-width: fit-content;
   }
   .weather-img {
     padding: 2px 15px;
@@ -35,20 +32,20 @@ body {
   .content-header {
     padding: 5px;
   }
-  .contact-box{
+  .contact-box {
     display: flex;
     justify-content: center;
   }
-  .contact-box p,h3{
+  .contact-box p,
+  h3 {
     text-align: center;
-  
-}
-  
+  }
+ 
 }
 
 /*homepage
 */
-.logo{
+.logo {
   max-width: 150px;
 }
 
@@ -166,7 +163,6 @@ h1 {
   text-align: center;
 }
 
-
 .contact-box {
   background-color: var(--primary-block-color);
   border: 1px solid var(--secondary-block-color);
@@ -175,18 +171,16 @@ h1 {
   max-width: 850px;
 }
 
-.contact-box h3{
+.contact-box h3 {
   font-family: var(--heading-font-family);
   font-size: 40px;
 }
-.contact-box p{
+.contact-box p {
   font-size: 25px;
-  
 }
 .contact-btn {
   display: flex;
-
-  justify-content:center;
+  justify-content: center;
   width: 175px;
 }
 
@@ -213,13 +207,13 @@ h1 {
 
 /*my work
 */
-.git{
+.git {
   font-size: 23px;
 }
-.git-link{
+.git-link {
   text-decoration: none;
 }
-.git-link:hover{
+.git-link:hover {
   text-decoration: none;
   color: red;
   font-weight: bold;
@@ -240,7 +234,7 @@ h1 {
   margin: 0 auto;
 }
 
-h3{
+h3 {
   font-family: var(--heading-font-family);
   font-weight: lighter;
 }
